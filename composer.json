@@ -1,0 +1,33 @@
+{
+    "name": "Lesha/FastOrder",
+    "description": "Fast order: bay now",
+    "version": "v1.0.0",
+    "license": "Lesha",
+    "authors": [
+        {
+            "name": "Lesha",
+			"speciality": "PHP-developer",
+			"role": "Manufacturer",
+			"e-mail": "leshadiplom@mail.ru"
+        }
+    ],
+    "require": {
+        "shopware/core": "*",
+        "shopware/administration": "*",
+        "shopware/storefront": "*"
+    },
+    "type": "shopware-platform-plugin",
+    "autoload": {
+        "psr-4": {
+            "Lesha\\FastOrder\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Lesha\\FastOrder\\FastOrder",
+        "copyright": "Lesha",
+        "label": {
+            "de-DE": "Der Schnellauftrag für Shopware",
+            "en-GB": "Fastorder for Shopware"
+        }
+    }
+}

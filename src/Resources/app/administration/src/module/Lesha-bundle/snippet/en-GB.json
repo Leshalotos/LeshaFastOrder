@@ -1,0 +1,38 @@
+{
+    "swag-bundle": {
+        "general": {
+            "mainMenuItemGeneral": "Bundle",
+            "descriptionTextModule": "Manage bundles here"
+        },
+        "list": {
+            "addButtonText": "Add bundle",
+            "columnName": "Name",
+            "columnArtikul": "Artikul",
+            "columnDiscount": "Discount"
+        },
+        "detail": {
+            "nameLabel": "Name",
+            "discountLabel": "Discount",
+            "assignProductsLabel": "Assign products",
+            "cancelButtonText": "Cancel",
+            "saveButtonText": "Save",
+            "errorTitle": "Error saving the bundle",
+        }
+    },
+
+    "sw-product": {
+        "detail": {
+            "bundleCardLabel": "Bundles",
+            "bundleSelectLabel": "Associated bundles",
+            "bundleSelectPlaceholder": "Add bundle..."
+        }
+    },
+
+    "sw-condition": {
+        "condition": {
+            "cartContainsBundle": {
+                "label": "Cart contains bundle"
+            }
+        }
+    }
+}

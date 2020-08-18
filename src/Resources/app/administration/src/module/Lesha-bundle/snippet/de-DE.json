@@ -1,0 +1,38 @@
+{
+    "Lesha-bundle": {
+        "general": {
+            "mainMenuItemGeneral": "Bundle",
+            "descriptionTextModule": "Verwalte die Bundles hier"
+        },
+        "list": {
+            "addButtonText": "Bundle hinzufügen",
+            "columnName": "Name",
+            "columnArtikul": "Artikul",
+            "columnDiscount": "Rabatt"
+        },
+        "detail": {
+            "nameLabel": "Name",
+            "discountLabel": "Rabatt",
+            "assignProductsLabel": "Produkte zuweisen",
+            "cancelButtonText": "Abbrechen",
+            "saveButtonText": "Speichern",
+            "errorTitle": "Fehler beim Speichern des Bundles",
+        }
+    },
+
+    "sw-product": {
+        "detail": {
+            "bundleCardLabel": "Bundles",
+            "bundleSelectLabel": "Zugewiesene Bundles",
+            "bundleSelectPlaceholder": "Bundle hinzufügen..."
+        }
+    },
+
+    "sw-condition": {
+        "condition": {
+            "cartContainsBundle": {
+                "label": "Warenkorb enthält Bundle"
+            }
+        }
+    }
+}
